@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/ip_address"
+        android:layout_width="387dp"
+        android:layout_height="68dp"
+        android:hint="Server IP Address"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/sensitivity"
+        android:layout_width="386dp"
+        android:layout_height="73dp"
+        android:layout_below="@id/ip_address"
+        android:layout_marginTop="50dp"
+        android:hint="Sensitivity"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sensitivity"
+        android:text="Save"/>
+</RelativeLayout>
