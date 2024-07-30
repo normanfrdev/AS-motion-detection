@@ -7,7 +7,7 @@ Check out [this guide.](https://normanfr.notion.site/Set-Up-0e902cefedf548dc8382
 
 # Open source?
 
-Maybe later. Not now though.
+It's here, finally.
 
 # The signal won't go through!
 
